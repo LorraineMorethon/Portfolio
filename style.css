@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #3b4c91;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    max-width: 190px;
+  }
+  
+  .courses, .bio, .social-links {
+    margin: 40px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077b5; /* LinkedIn color */
+  }
+  
+  .buttons a:last-child {
+    margin-right: 0;
+    background-color: #24292e; /* GitHub color */
+  }
+  
